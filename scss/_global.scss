@@ -1,6 +1,6 @@
-body {
-  @include body-font;
-}
+// body {
+//   @include body-font;
+// }
 
 h1,
 h2,
@@ -10,4 +10,8 @@ h5,
 h6 {
   @include body-font;
   font-weight: 700;
+}
+.navbar-brand {
+  @include body-font;
+  font-size: 1.5rem;
 }

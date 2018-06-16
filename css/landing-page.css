@@ -8100,10 +8100,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-body {
-  font-family: 'Gugi', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
 h1,
 h2,
 h3,
@@ -8112,6 +8108,11 @@ h5,
 h6 {
   font-family: 'Gugi', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
+}
+
+.navbar-brand {
+  font-family: 'Gugi', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
 }
 
 header.masthead {
